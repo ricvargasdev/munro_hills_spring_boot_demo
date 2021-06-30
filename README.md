@@ -8,7 +8,7 @@ Just make sure to have your JAVA_HOME well configured in your environment.
 
 2. To call the webservice go to this URL: [http://localhost:8080/munro/hills](http://localhost:8080/munro/hills)
 
-3. Here is the list of parameters that you can use: 
+3. Here is the list of parameters that you can use:
 
     - **category** (values: "TOP" or "MUN") - The category of the hill based on the value of the column 'AB' (Post 1997)
     - **minHeight** - minimum height in meters.
@@ -26,5 +26,7 @@ This is an example of how you can call the webservice with all the parameters:
 You can sort them in any order and the result won't be affected.
 
 If you have any questions or comments, please let me know at [ricvargas@gmail.com](mailto:ricvargas@gmail.com)
+
+4. To run the application execute: ".mvnw spring-boot:run", to run the tests execute: ".mvnw test" or just import the project in your favorite IDE.
 
 Regards!
