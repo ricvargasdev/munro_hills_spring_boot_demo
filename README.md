@@ -21,7 +21,7 @@ Just make sure to have your JAVA_HOME well configured in your environment.
 
 This is an example of how you can call the webservice with all the parameters:
 
-[localhost:8080/munro/hills?category=TOP&minHeight=980&maxHeight=985&sortField1=heightMeters&sortField2=name&sortOrder1=desc&sortOrder2=desc](localhost:8080/munro/hills?category=TOP&minHeight=980&maxHeight=985&sortField1=heightMeters&sortField2=name&sortOrder1=desc&sortOrder2=desc)
+[http://localhost:8080/munro/hills?category=TOP&minHeight=980&maxHeight=985&sortField1=heightMeters&sortField2=name&sortOrder1=desc&sortOrder2=desc](http://localhost:8080/munro/hills?category=TOP&minHeight=980&maxHeight=985&sortField1=heightMeters&sortField2=name&sortOrder1=desc&sortOrder2=desc)
 
 You can sort them in any order and the result won't be affected.
 
